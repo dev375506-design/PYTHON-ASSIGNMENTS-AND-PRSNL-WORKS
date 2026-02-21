@@ -1,0 +1,7 @@
+age=int(input("write your age:"))
+
+if(age>=18):
+    print("yes")
+else:
+    print("no")
+        
