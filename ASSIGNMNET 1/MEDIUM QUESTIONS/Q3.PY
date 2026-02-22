@@ -1,4 +1,4 @@
-# 240280117049 NAYAK DEV 
+#240280117049 NAYAK DEV AND 240280117071 PATEL MANAV
 # Program to calculate grade based on percentage
 
 print("Enter marks of 5 subjects:")
@@ -9,12 +9,12 @@ c = float(input("Subject 3: "))
 d = float(input("Subject 4: "))
 e = float(input("Subject 5: "))
 
-# Percentage
+
 percentage = (a + b + c + d + e) / 5
 
 print(f"Your percentage is {percentage}%")
 
-# THIS BOCK WILL CHECK IF ANY SUBJECTIVE MARKS ARE BELOW 33 OR NOT AND THEN CALCULATE GRADE BASED ON PERCENTAGE
+
 if a < 33 or b < 33 or c < 33 or d < 33 or e < 33:
     grade = "FAIL AS SUBJECTIVE CUTOFF IS NOT CLEARED 😞"
 
@@ -27,7 +27,9 @@ else:
         grade = "B YOU CAN DO BETTER 🙂"
     elif percentage >= 50:
         grade = "C NEED TO IMPROVE 🙂"
+    elif percentage >= 33:
+        grade = "D JUST PASSED 🙂"
     else:
-        grade = "FAIL WITH F GRADE L🙂"
+        grade = "FAIL WITH F GRADE 🙂"
 
 print(f"YOU HAVE GOT {grade} AS YOUR PERCENTAGE ARE {percentage}%")

@@ -1,4 +1,4 @@
-#240280117049 NAYAK DEV 
+#240280117049 NAYAK DEV AND 240280117071 PATEL MANAV
 # Program to count frequency of an element
 
 numbers = [10, 20, 30, 20, 40, 20, 50]
