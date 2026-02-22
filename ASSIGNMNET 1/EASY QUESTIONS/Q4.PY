@@ -1,4 +1,4 @@
-#240280117049 NAYAK DEV AND 240280117071 PATEL MANAV
+#240280117049 NAYAK DEV 
 
 # Program to calculate area of a rectangle
 
@@ -6,8 +6,8 @@
 length = float(input("Enter length of rectangle: "))
 breadth = float(input("Enter breadth of rectangle: "))
 
-# Calculating area
+
 area = length * breadth
 
-# Display result
-print("Area of rectangle =", area)
+
+print(f"Area of the rectangle = {area}")

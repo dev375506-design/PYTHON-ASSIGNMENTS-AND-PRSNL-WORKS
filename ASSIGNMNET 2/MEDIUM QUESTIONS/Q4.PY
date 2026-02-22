@@ -1,12 +1,14 @@
+#240280117049 NAYAK DEV
+
 # Program to find sum of digits
 
 num = int(input("Enter a number: "))
 
-sum_digits = 0
+sum = 0
 
 while num > 0:
     digit = num % 10
-    sum_digits += digit
+    sum += digit
     num = num // 10
 
-print("Sum of digits =", sum_digits)
+print(f"Sum of digits = {sum}")

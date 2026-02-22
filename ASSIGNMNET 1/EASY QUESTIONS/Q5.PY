@@ -1,19 +1,21 @@
-#240280117049 NAYAK DEV AND 240280117071 PATEL MANAV
+#240280117049 NAYAK DEV 
 
 # Program to find the largest among three numbers
 
-# Taking three numbers from user
+
 a = float(input("Enter first number: "))
 b = float(input("Enter second number: "))
 c = float(input("Enter third number: "))
 
-# Checking largest number
-if a >= b and a >= c:
-    largest = a
-elif b >= a and b >= c:
-    largest = b
+if a > b and a > c:
+    print(a, "is the largest number.")
+    
+elif b > a and b > c:
+    print(b, "is the largest number.")
+    
 else:
-    largest = c
 
-# Display result
-print("The largest number is:", largest)
+    print(c, "is the largest number.")
+    
+
+

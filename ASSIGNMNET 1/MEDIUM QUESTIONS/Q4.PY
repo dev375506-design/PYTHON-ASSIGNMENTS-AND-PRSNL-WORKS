@@ -1,17 +1,17 @@
-#240280117049 NAYAK DEV AND 240280117071 PATEL MANAV
-
+# 240280117049 NAYAK DEV 
 # Program to check vowel or consonant
 
-ch = input("Enter a character: ")
+ch = input("Enter a character: ").lower()
 
-# Convert to lowercase
-ch = ch.lower()
+if len(ch) != 1:
+    print("Enter only one character")
 
-# Check only alphabet
-if len(ch) == 1 and ch.isalpha():
-    if ch in ['a', 'e', 'i', 'o', 'u']:
+elif ch in "abcdefghijklmnopqrstuvwxyz":
+
+    if ch in "aeiou":
         print(ch, "is a Vowel")
     else:
         print(ch, "is a Consonant")
+
 else:
-    print("Please enter a single alphabet only")
+    print("Enter an alphabet only")

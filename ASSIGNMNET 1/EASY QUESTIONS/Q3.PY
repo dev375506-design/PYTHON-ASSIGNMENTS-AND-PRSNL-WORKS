@@ -1,12 +1,12 @@
-#240280117049 NAYAK DEV AND 240280117071 PATEL MANAV
+# 240280117049 NAYAK DEV 
+# Celsius to Fahrenheit using function
 
-# Program to convert Celsius to Fahrenheit
+def c_to_f(c):
+    f = (c * 9/5) + 32
+    return f
 
-# Taking temperature input
 celsius = float(input("Enter temperature in Celsius: "))
 
-# Conversion formula
-fahrenheit = (celsius * 9/5) + 32
+fahrenheit = c_to_f(celsius)
 
-# Display result
 print("Temperature in Fahrenheit =", fahrenheit)

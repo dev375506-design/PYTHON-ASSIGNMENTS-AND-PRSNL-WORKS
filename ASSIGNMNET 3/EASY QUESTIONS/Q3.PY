@@ -1,4 +1,4 @@
-#240280117049 NAYAK DEV AND 240280117071 PATEL MANAV
+#240280117049 NAYAK DEV 
 
 # Program to check if string is uppercase or lowercase
 
@@ -9,7 +9,6 @@ if text.isupper():
 elif text.islower():
 
     print("The string is in lowercase")
-elif text.isCapitalized():
-    print("The string is in Capitalized case")
+
 else:
     print("The string is mixed case")

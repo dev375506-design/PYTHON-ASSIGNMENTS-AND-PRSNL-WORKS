@@ -1,4 +1,4 @@
-#240280117049 NAYAK DEV AND 240280117071 PATEL MANAV
+#240280117049 NAYAK DEV
 
 # Program to find sum of first N natural numbers
 
@@ -9,4 +9,4 @@ sum = 0
 for i in range(1, n + 1):
     sum = sum + i
 
-print("Sum of first", n, "natural numbers =", sum)
+print(f"Sum of first {n} natural numbers is {sum}")
