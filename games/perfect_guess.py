@@ -11,4 +11,3 @@ while(a!=n):
     else:
         print(f"Congratulations! You've guessed the number {n} in {guesess} guesses.")
     guesess+=1
-print(f"Congratulations! You've guessed the number {n} in {guesess-1} guesses.")
