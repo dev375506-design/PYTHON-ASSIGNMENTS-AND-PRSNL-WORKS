@@ -1,0 +1,21 @@
+import matplotlib.pyplot as plt
+
+months = list(range(1, 13))
+temp = [22, 24, 28, 32, 35, 38, 36, 34, 33, 30, 26, 23]
+
+plt.plot(months, temp)
+plt.xlabel("Month")
+plt.ylabel("Temperature (°C)")
+plt.title("Monthly Temperature")
+
+plt.show()
+
+# Find highest and lowest
+max_temp = max(temp)
+min_temp = min(temp)
+
+max_month = months[temp.index(max_temp)]
+min_month = months[temp.index(min_temp)]
+
+print("Highest temperature:", max_temp, "in month", max_month)
+print("Lowest temperature:", min_temp, "in month", min_month)
